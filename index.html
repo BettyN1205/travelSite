@@ -4,9 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Travel Site</title>
 </head>
 <body>
-    <h1>home</h1>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="header__logo">
+                <a href=""><h3 class="header__title">Travel Site</h3></a>
+            </div>
+            <ul class="header__menu">
+                <a href=""><li class="header__menu-item">Home</li></a>
+                <a href=""><li class="header__menu-item">Hawaii</li></a>
+                <a href=""><li class="header__menu-item">Iceland</li></a>
+                <a href=""><li class="header__menu-item">Greece</li></a>  
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero__container">
+            <div class="hero__description">
+                <h1 class="hero__title">Travelling Comes With Endless Discoveries</h1>
+                <p class="hero__text">Don’t let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
+                <a href=""><button class="hero__button">Get started</button></a>
+            </div>
+            <div class="hero__pic"></div>
+        </div>
+    </section>
+
+    <section class="reco">
+        <div class="reco__container">
+            <h3 class="reco__title">Recommendations</h3>
+            <div class="reco__card-container">
+                <div class="reco__card">
+                    <a href=""><img class="reco__image" src="" alt="Hawaii Image"></a>
+                    <h3 class="reco__card-title">Hawaii</h3>
+                </div>
+                <div class="reco__card">
+                    <a href=""><img class="reco__image" src="" alt="Iceland Image"></a>
+                    <h3 class="reco__card-title">Iceland</h3>
+                </div>
+                <div class="reco__card">
+                    <a href=""><img class="reco__image" src="" alt="Greece Image"></a>
+                    <h3 class="reco__card-title">Greece</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__contact">
+            <h3 class="footer__title">Contact</h3>
+            <p class="footer__contact-info">EMAIL</p>
+            <a href="">
+                <p class="footer__contact-info">info@travelsite.com</p>
+            </a>
+        </div>
+
+        <div class="footer__hours">
+            <h3 class="footer__title">Hours</h3>
+            <div class="footer__hours-detail">
+                <div class="footer__weekday">
+                    <p class="footer__day">MONDAY - FRIDAY</p>
+                    <p class="footer__time">9:00 AM - 5:00 PM</p>
+                </div>
+                <div class="footer__sat">
+                    <p class="footer__day">SATURDAY</p>
+                    <p class="footer__time">10:00 AM - 4:00 PM</p>
+                </div>
+                <div class="footer__sun">
+                    <p class="footer__day">SUNDAY</p>
+                    <p class="footer__time">Closed</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__social">
+            <h3 class="footer__title">Social</h3>
+            <a href=""><img class="footer__icon" src="" alt="Instagram"></a>
+            <a href=""><img class="footer__icon" src="" alt="Facebook"></a>
+            <a href=""><img class="footer__icon" src="" alt="Twitter"></a>
+        </div>
+    </footer>
 </body>
 </html>
