@@ -6,6 +6,7 @@
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #335576;
 }
 
 li{
@@ -48,6 +49,7 @@ a{
     margin-left: 1rem;
     font-size: 14px;
     padding: 5px 0;
+    color: black;
 }
 
 .header__menu-item.first {
@@ -64,6 +66,7 @@ a{
     align-items:flex-end;
     padding: 3rem 5.5rem;
     color: #335576;
+    margin-top: 3rem;
 }
 
 .footer__subtitles{
