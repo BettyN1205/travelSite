@@ -63,9 +63,12 @@ a{
     max-width: 1280px;
     height: 190px;
     background-color: #FEFAF5;
+}
+
+.footer-container{
     display: flex;
     justify-content: space-between;
-    align-items:flex-end;
+    align-items:start;
     padding: 3rem 15rem;
     color: #335576;
 }
@@ -75,6 +78,11 @@ a{
     font-size: 10px;
     margin: 0.5rem 0;
 }
+
+.footer__contact .footer__subtitles {
+    margin-top: 1.5rem;
+}
+
 .footer__hours-detail{
     display: flex;
 }

@@ -35,14 +35,18 @@
     font-size: .9em;
 }
 
-.hero__button{
+.hero__button-box{
     width: 160px;
     border: none;
     background-color: #DB7A4E;
-    font-size: .9em;
-    color: white;
     padding: 0.7rem 0;
     border-radius: 25px;
+    text-align: center;
+}
+
+.hero__button-box a{
+    color: white;
+    font-size: .9em;
 }
 
 .reco{
