@@ -48,11 +48,10 @@
 .reco{
     max-width: 1280px;
     height: 70vh;
-    margin: 2rem 5.5rem;
+    margin: 3rem 5.5rem;
 }
 .reco__title{
-    padding: 1rem 0;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .reco__card-container{
     display: flex;

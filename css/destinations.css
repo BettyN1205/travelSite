@@ -1,0 +1,68 @@
+.destinations{
+    margin-top: 60px;
+    height: 95vh;
+    max-width: 1280px;
+}
+
+.destinations__container{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    padding: 4rem 5.5rem;
+}
+
+#hawaii{
+    background-image:url(../assets/images/hawaii.jpg);
+}
+
+#iceland{
+    background-image:url(../assets/images/iceland.jpg);
+}
+
+#greece{
+    background-image: url(../assets/images/greece.jpg);
+}
+
+
+.destinations__title{
+    color: white;
+    font-size: 4.3rem;
+    margin-bottom: 3rem;
+}
+
+.destinations__activities{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.activity-card{
+    width: 250px;
+    height: 350px;
+    margin-left: 2rem;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.activity-card__title{
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.activity-card__list{
+    margin: 1rem 0;
+}
+
+.activity-card__item{
+    color: black;
+    background-color:#FEFAF5 ;
+    margin: 1rem 0;
+    padding: 0.8rem 0;
+}
+
+
+
