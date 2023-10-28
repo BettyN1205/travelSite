@@ -30,7 +30,18 @@
     color: white;
     font-size: 4.3rem;
     margin-bottom: 3rem;
+    animation: textShadowEffect 3s;
 }
+
+@keyframes textShadowEffect {
+    0% {
+        text-shadow: 0 0 black;
+    }
+    100% {
+        text-shadow: 20px 20px 10px rgba(0, 0, 0, 0.5);
+    }
+}
+
 
 .destinations__activities{
     display: flex;
@@ -57,12 +68,25 @@
     margin: 1rem 0;
 }
 
-.activity-card__item{
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.activity-card__item {
     color: black;
-    background-color:#FEFAF5 ;
+    background-color: #FEFAF5;
     margin: 1rem 0;
     padding: 0.8rem 0;
+    animation: fadeIn 2s ease; 
 }
+
 
 
 @media (max-width: 768px) {

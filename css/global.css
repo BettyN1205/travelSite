@@ -53,6 +53,10 @@ a {
     color: black;
 }
 
+.header__menu-item:hover{
+    border-bottom: 2px solid #DB7A4E;
+}
+
 .header__menu-item.first {
     border-bottom: 2px solid #DB7A4E;
 }
