@@ -1,7 +1,7 @@
 .destinations{
     margin-top: 60px;
     height: 95vh;
-    max-width: 1280px;
+    width: 100vw;
 }
 
 .destinations__container{
@@ -62,6 +62,48 @@
     background-color:#FEFAF5 ;
     margin: 1rem 0;
     padding: 0.8rem 0;
+}
+
+
+@media (max-width: 768px) {
+    .destinations {
+        height: auto;
+    }
+
+    .destinations__container {
+        padding: 2rem;
+        background-size: cover;
+    }
+
+    .destinations__title {
+        font-size: 2.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .destinations__activities {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .activity-card {
+        width: 100%;
+        max-width: 100%;
+        margin: 1rem 0;
+        height: auto;
+    }
+
+    .activity-card__title {
+        font-size: 1.8rem;
+        border-bottom: 2px solid black;
+    }
+
+    .activity-card__list {
+        margin: 1rem 0;
+    }
+
+    .activity-card__item {
+        margin: 1rem 0;
+    }
 }
 
 

@@ -1,41 +1,41 @@
-.hero{
+/* Hero Section */
+.hero {
     height: 75vh;
-    max-width: 1280px;
+    width: 100vw;
     margin-top: 60px;
     background-color: #FEFAF5;
     padding: 3rem 5.5rem;
 }
 
-.hero__container{
-    height: 100%;
+.hero__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    height: 100%;
 }
 
-.hero__description{
-    flex-basis: calc(50% - 1rem); 
+.hero__description {
+    flex-basis: calc(50% - 3rem);
 }
 
-.hero__pic{
+.hero__pic {
     width: 440px;
     height: 350px;
-    background-image: url(../assets/images/hero.png);
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-position: right;
+    background: url(../assets/images/hero.png) no-repeat right/contain;
 }
-.hero__title{
+
+.hero__title,
+.reco__title {
     font-size: 2.3rem;
 }
 
-.hero__text{
+.hero__text {
     margin: 2rem 0;
-    font-size: .9em;
+    font-size: 0.9em;
 }
 
-.hero__button-box{
+.hero__button-box {
     width: 160px;
     border: none;
     background-color: #DB7A4E;
@@ -44,26 +44,30 @@
     text-align: center;
 }
 
-.hero__button-box a{
+.hero__button-box a {
     color: white;
-    font-size: .9em;
+    font-size: 0.9em;
 }
 
-.reco{
-    max-width: 1280px;
-    height: 70vh;
-    margin: 3rem 5.5rem;
+/* Recommendation Section */
+.reco {
+    padding: 3rem 5.5rem;
+    width: 100%;
 }
-.reco__title{
+
+.reco__title {
     margin-bottom: 2rem;
 }
-.reco__card-container{
+
+.reco__card-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
-.reco__card{
+.reco__card {
     width: 255px;
     height: 380px;
     margin-left: 2rem;
@@ -74,13 +78,13 @@
 }
 
 .reco__image {
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 5px;
 }
 
-.reco__card-title{
+.reco__card-title {
     color: white;
     font-size: 1.3em;
     position: absolute;
@@ -89,6 +93,64 @@
 }
 
 
+@media (max-width: 768px) {
+    .hero, .reco {
+        width: 100vw;
+        max-width: 100%;
+        height: auto;
+        padding: 2rem;
+    }
+
+    .hero__title {
+        font-size: 1.8rem;
+    }
+
+    .hero__text {
+        margin: 1rem 0;
+    }
+
+    .hero__container {
+        flex-direction: column;
+    }
+
+    .hero__description {
+        flex-basis: 100%;
+    }
+
+    .hero__pic {
+        order: -1;
+        width: 80%;
+    }
+
+    .hero__button-box {
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .reco__title {
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .reco__card-container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .reco__card {
+        width: 90vw;
+        max-width: 100%;
+        margin: 1rem 0;
+        height: 300px;
+    }
+
+    .reco__card-title {
+        font-size: 3em;
+    }
+}
 
 
 
